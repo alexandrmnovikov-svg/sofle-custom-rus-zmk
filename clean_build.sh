@@ -23,7 +23,7 @@ rm -rf build
 
 # Сборка левой половины
 echo "Building left side..."
-west build -s app -b nice_nano_v2 -- -DSHIELD=sofle_left -DZMK_CONFIG="$CONFIG_DIR/config" -DZMK_EXTRA_MODULES="/Volumes/MiniExtra/Projects/zmk-lang-switch"
+west build -s app -b nice_nano_v2 -- -DSHIELD=sofle_left -DZMK_CONFIG="$CONFIG_DIR/config" #-DZMK_EXTRA_MODULES="/Volumes/MiniExtra/Projects/zmk-lang-switch"
 mv $ZMK_DIR/build/zephyr/zmk.uf2 $BUILD_DIR/sofle_left.uf2
 
 # Очистка перед сборкой правой половины
@@ -31,7 +31,7 @@ rm -rf build
 
 # Сборка правой половины (исправлен путь конфига)
 echo "Building right side..."
-west build -s app -b nice_nano_v2 -- -DSHIELD=sofle_right -DZMK_CONFIG="$CONFIG_DIR/config" -DZMK_EXTRA_MODULES="/Volumes/MiniExtra/Projects/zmk-lang-switch"
+west build -s app -b nice_nano_v2 -- -DSHIELD=sofle_right -DZMK_CONFIG="$CONFIG_DIR/config" #-DZMK_EXTRA_MODULES="/Volumes/MiniExtra/Projects/zmk-lang-switch"
 mv $ZMK_DIR/build/zephyr/zmk.uf2 $BUILD_DIR/sofle_right.uf2
 
 echo "Build complete!"
