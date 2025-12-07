@@ -18,6 +18,7 @@
 #define RAISE 3
 #define ADJUST 4
 
+#include "definitions/behaviors.dtsi"
 
 // https://keymap-drawer.streamlit.app/
 // for auto-visualization

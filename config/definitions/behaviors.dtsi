@@ -1,0 +1,10 @@
+/ {
+    behaviors {
+        ls: lang_switch {
+            compatible = "zmk,behavior-lang-switch";
+            #binding-cells = <1>;
+            bindings = <&kp CAPS>;
+            layers = <ENGLISH RUSSIAN>;
+        };
+    };
+};
