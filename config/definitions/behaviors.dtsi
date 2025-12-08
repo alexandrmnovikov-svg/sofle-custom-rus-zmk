@@ -3,8 +3,10 @@
         ls: lang_switch {
             compatible = "zmk,behavior-lang-switch";
             #binding-cells = <1>;
-            bindings = <&kp CAPS>;
-            layers = <ENGLISH RUSSIAN>;
+            // Коды клавиш  F19-переключение на EN F18 = переключение на RU
+            bindings = <&kp F19>, <&kp F18>;
+            en_layer = <ENGLISH>;
+            ru_layer = <RUSSIAN>;
         };
     };
 };

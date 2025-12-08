@@ -17,6 +17,7 @@
 #define LOWER 2
 #define RAISE 3
 #define ADJUST 4
+#define NEXT 255
 
 #include "definitions/behaviors.dtsi"
 
@@ -60,7 +61,7 @@
 &kp GRAVE  &kp A    &kp S    &kp D    &kp F     &kp G                            &kp H    &kp J     &kp K     &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z    &kp X    &kp C    &kp V     &kp B   &kp C_MUTE   &tog RAISE  &kp N    &kp M     &kp COMMA &kp DOT  &kp FSLH  &kp RSHFT
 
-                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &kp CAPS  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
+                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
             sensor-bindings = <
                                       &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
@@ -91,7 +92,7 @@
 &kp GRAVE  &kp A    &kp S    &kp D    &kp F     &kp G                            &kp H    &kp J     &kp K     &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z    &kp X    &kp C    &kp V     &kp B   &kp C_MUTE   &tog RAISE  &kp N    &kp M     &kp COMMA &kp DOT  &kp FSLH  &kp RSHFT
 
-                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &kp CAPS  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
+                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
            sensor-bindings = <
                                       &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
@@ -122,7 +123,7 @@
 &kp GRAVE  &kp TILDE &none    &kp COLON     &kp DQT   &kp LBRC                          &kp RBRC  &kp COMMA &kp EQUAL &kp UNDER &kp BSLH  &kp APOS
 &kp LSHFT  &none     &none    &kp SEMICOLON &kp LT    &kp LBKT &kp C_MUTE   &tog RAISE  &kp RBKT  &kp GT    &kp COMMA &kp DOT   &kp SLASH &kp RSHFT
 
-                      &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &kp CAPS  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
+                      &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
            sensor-bindings = <
                                       &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
@@ -152,7 +153,7 @@
 &kp GRAVE  &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &none                            &none    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN  &kp SQT
 &kp LSHFT  &kp INS   &none    &kp DEL   &none     &none   &trans           &trans  &none    &kp INS   &none     &kp DEL   &none      &kp RSHFT
 
-                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &kp CAPS  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
+                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
            sensor-bindings = <
                                       &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
