@@ -13,6 +13,7 @@
 #define RU_SC O     /* щ */
 #define RU_Z P      /* з */
 #define RU_H LBKT   /* х */
+
 #define RU_HD RBKT  /* ъ */
 
 #define RU_F A      /* ф */
@@ -35,5 +36,5 @@
 #define RU_T N      /* т */
 #define RU_SF M     /* ь */
 #define RU_B COMMA  /* б */
-#define RU_JU PERIOD /* ю */
+#define RU_JU DOT   /* ю */
 
