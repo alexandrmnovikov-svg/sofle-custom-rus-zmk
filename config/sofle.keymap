@@ -79,7 +79,7 @@
 // |------+------+------+------+------+------|                    |------+------+------+------+------+------|
 // |   ё  |   ф  |   ы  |   в  |   а  |   п  |-------.    ,-------|   р  |   о  |   л  |   д  |   ж  |   э  |
 // |------+------+------+------+------+------|  MUTE |    |       |------+------+------+------+------+------|
-// | Shift|   я  |   ч  |   с  |   м  |   и  |-------|    |-------|   т  |   ь  |   б  |   ю  |   /  | Shift|
+// | Shift|   я  |   ч  |   с  |   м  |   и  |-------|    |-------|   т  |   ь  |   б  |   ю  |   ъ  | Shift|
 // `-----------------------------------------/       /     \      \-----------------------------------------'
 //            | LOWER| CTR  |  Alt |  GUI | /Space  /       \RU/EN \  | RAISE|Enter |  GUI |  CTR |
 //            |      |      |      |      |/       /         \      \ |      |      |      |      |
@@ -90,7 +90,7 @@
 &kp ESC    &kp N1    &kp N2    &kp N3   &kp N4    &kp N5                             &kp N6   &kp N7    &kp N8    &kp N9    &kp N0    &kp BSPC
 &kp TAB    &kp RU_J  &kp RU_TS &kp RU_U &kp RU_K  &kp RU_JE                          &kp RU_N &kp RU_G  &kp RU_SH &kp RU_SC &kp RU_Z  &kp RU_H
 &kp RU_JO  &kp RU_F  &kp RU_Y  &kp RU_V &kp RU_A  &kp RU_P                           &kp RU_R &kp RU_O  &kp RU_L  &kp RU_D  &kp RU_ZH &kp RU_E
-&kp LSHFT  &kp RU_JA &kp RU_CH &kp RU_S &kp RU_M  &kp RU_I  &kp C_MUTE   &tog RAISE  &kp RU_T &kp RU_SF &kp RU_B  &kp RU_JU &kp FSLH  &kp RSHFT
+&kp LSHFT  &kp RU_JA &kp RU_CH &kp RU_S &kp RU_M  &kp RU_I  &kp C_MUTE   &tog RAISE  &kp RU_T &kp RU_SF &kp RU_B  &kp RU_JU &kp RU_HD &kp RSHFT
 
                    &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
