@@ -1,5 +1,9 @@
 / {
     behaviors {
+        // переключение языка
+        // аргумент -- номер слоя раскладки
+        //             если аргумент не равен номеру слоя раскладки
+        //             переключение производится на другую раскладку (не равную текущей)
         ls: lang_switch {
             compatible = "zmk,behavior-lang-switch";
             #binding-cells = <1>;
@@ -8,5 +12,26 @@
             en_layer = <ENGLISH>;
             ru_layer = <RUSSIAN>;
         };
+
+        // нажатие символа принудительно в английской раскладке
+        en: kp_on_eng {
+            compatible = "zmk,behavior-kp-on-lang";
+            #binding-cells = <1>;
+            bindings = <&kp F19>, <&kp F18>;
+            en_layer = <ENGLISH>;
+            ru_layer = <RUSSIAN>;
+            language = <ENGLISH>;
+        };
+
+        // нажатие символа принудительно в русской раскладке
+        ru: kp_on_rus {
+            compatible = "zmk,behavior-kp-on-lang";
+            #binding-cells = <1>;
+            bindings = <&kp F19>, <&kp F18>;
+            en_layer = <ENGLISH>;
+            ru_layer = <RUSSIAN>;
+            language = <RUSSIAN>;
+        };
+
     };
 };
