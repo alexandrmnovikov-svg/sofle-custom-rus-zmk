@@ -59,7 +59,7 @@
 &kp ESC    &kp N1   &kp N2   &kp N3   &kp N4    &kp N5                           &kp N6   &kp N7    &kp N8    &kp N9   &kp N0    &kp BSPC
 &kp TAB    &kp Q    &kp W    &kp E    &kp R     &kp T                            &kp Y    &kp U     &kp I     &kp O    &kp P     &kp LBKT
 &kp GRAVE  &kp A    &kp S    &kp D    &kp F     &kp G                            &kp H    &kp J     &kp K     &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z    &kp X    &kp C    &kp V     &kp B   &kp C_MUTE   &tog RAISE  &kp N    &kp M     &kp COMMA &kp DOT  &kp FSLH  &kp RSHFT
+&ss LSHFT  &kp Z    &kp X    &kp C    &kp V     &kp B   &kp C_MUTE   &tog RAISE  &kp N    &kp M     &kp COMMA &kp DOT  &kp FSLH  &ss RSHFT
 
                 &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
@@ -90,7 +90,7 @@
 &kp ESC    &kp N1    &en N2    &en N3   &en N4    &kp N5                             &en N6   &en N7    &kp N8    &kp N9    &kp N0    &kp BSPC
 &kp TAB    &kp RU_J  &kp RU_TS &kp RU_U &kp RU_K  &kp RU_JE                          &kp RU_N &kp RU_G  &kp RU_SH &kp RU_SC &kp RU_Z  &kp RU_H
 &kp RU_JO  &kp RU_F  &kp RU_Y  &kp RU_V &kp RU_A  &kp RU_P                           &kp RU_R &kp RU_O  &kp RU_L  &kp RU_D  &kp RU_ZH &kp RU_E
-&kp LSHFT  &kp RU_JA &kp RU_CH &kp RU_S &kp RU_M  &kp RU_I  &kp C_MUTE   &tog RAISE  &kp RU_T &kp RU_SF &kp RU_B  &kp RU_JU &kp RU_HD &kp RSHFT
+&ss LSHFT  &kp RU_JA &kp RU_CH &kp RU_S &kp RU_M  &kp RU_I  &kp C_MUTE   &tog RAISE  &kp RU_T &kp RU_SF &kp RU_B  &kp RU_JU &kp RU_HD &ss RSHFT
 
                    &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
@@ -121,7 +121,7 @@
 &kp ESC    &kp EXCL  &en AT   &en HASH      &en DLLR  &kp PRCNT                         &en CARET &en AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
 &kp TAB    &en QMARK &none    &ru HASH      &en APOS  &kp LPAR                          &kp RPAR  &en DOT   &kp PLUS  &kp MINUS &en PIPE  &en DQT
 &en GRAVE  &en TILDE &none    &en COLON     &en DQT   &en LBRC                          &en RBRC  &en COMMA &kp EQUAL &kp UNDER &kp BSLH  &en APOS
-&kp LSHFT  &none     &none    &en SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT    &en COMMA &en DOT   &en SLASH &kp RSHFT
+&ss LSHFT  &none     &none    &en SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT    &en COMMA &en DOT   &en SLASH &ss RSHFT
 
                       &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
@@ -151,7 +151,7 @@
 &kp ESC    &kp F1    &kp F2   &kp F3    &kp F4    &kp F5                           &kp F6   &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
 &kp TAB    &kp HOME  &kp UP   &kp END   &kp PG_UP &none                            &none    &kp HOME  &kp UP    &kp END   &kp PG_UP  &kp F12
 &kp GRAVE  &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &none                            &none    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN  &kp SQT
-&kp LSHFT  &kp INS   &none    &kp DEL   &none     &none   &trans           &trans  &none    &kp INS   &none     &kp DEL   &none      &kp RSHFT
+&ss LSHFT  &kp INS   &none    &kp DEL   &none     &none   &trans           &trans  &none    &kp INS   &none     &kp DEL   &none      &ss RSHFT
 
                 &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
