@@ -1,0 +1,21 @@
+/* навигация по словам и строкам */
+/* MacOS */
+#define MC_LSTRT LG(LEFT)       /* на начало строки CMD + Left */
+#define MC_LEND LG(RIGHT)       /* на конец строки CMD + Right */
+
+#define MC_PRVWD LA(LEFT)       /* на слово влево Alt + Left */
+#define MC_NXTWD LA(RIGHT)      /* на слово вправо Alt + Right */
+
+#define MC_DWDL LA(BACKSPACE)   /* удалить слово слева Alt + Backspace */
+#define MC_DWDR LA(DELETE)      /* удалить слово справа Alt + Delete */
+
+
+/* Windows/Linux */
+#define KC_LSTRT HOME           /* на начало строки Home */
+#define KC_LEND END             /* на конец строки End */
+
+#define KC_PRVWD LC(LEFT)       /* на слово влево Ctrl + Left */
+#define KC_NXTWD LC(RIGHT)      /* на слово вправо Ctrl + Right */
+
+#define KC_DWDL LC(BACKSPACE)   /* удалить слово слева Ctrl + Backspace */
+#define KC_DWDR LC(DELETE)      /* удалить слово справа Ctrl + Delete */

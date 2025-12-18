@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #include "definitions/russian_keys.dtsi"
+#include "definitions/navigations.dtsi"
 
 #define ENGLISH 0
 #define RUSSIAN 1
@@ -148,12 +149,12 @@
 //            `----------------------------------'            '------''---------------------------'
 //
             bindings = <
-&kp ESC    &kp F1    &kp F2   &kp F3    &kp F4    &kp F5                           &kp F6   &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
-&kp TAB    &kp HOME  &kp UP   &kp END   &kp PG_UP &none                            &none    &kp HOME  &kp UP    &kp END   &kp PG_UP  &kp F12
-&kp GRAVE  &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &none                            &none    &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN  &kp SQT
-&ss LSHFT  &kp INS   &none    &kp DEL   &none     &none   &trans           &trans  &none    &kp INS   &none     &kp DEL   &none      &ss RSHFT
+&kp ESC    &kp F1    &kp F2   &kp F3    &kp F4    &kp F5                           &kp F6       &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
+&kp TAB    &kp HOME  &kp UP   &kp END   &kp PG_UP &kp MC_DWDL                      &kp MC_DWDR  &kp HOME  &kp UP    &kp END   &kp PG_UP  &kp F12
+&kp GRAVE  &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &kp MC_PRVWD                     &kp MC_NXTWD &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN  &kp SQT
+&ss LSHFT  &kp INS   &none    &kp DEL   &none     &kp MC_LSTRT &trans      &trans  &kp MC_LEND  &kp INS   &none     &kp DEL   &none      &ss RSHFT
 
-                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
+                &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC       &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL
             >;
            sensor-bindings = <
                                       &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
