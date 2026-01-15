@@ -7,8 +7,8 @@
         ls: lang_switch {
             compatible = "zmk,behavior-lang-switch";
             #binding-cells = <1>;
-            // Коды клавиш  F19-переключение на EN F18 = переключение на RU
-            bindings = <&kp F19>, <&kp F18>;
+            // Коды клавиш  F17-переключение на EN F18 = переключение на RU
+            bindings = <&kp F17>, <&kp F18>;
             en_layer = <ENGLISH>;
             ru_layer = <RUSSIAN>;
         };
@@ -17,7 +17,7 @@
         en: kp_on_eng {
             compatible = "zmk,behavior-kp-on-lang";
             #binding-cells = <1>;
-            bindings = <&kp F19>, <&kp F18>;
+            bindings = <&kp F17>, <&kp F18>;
             en_layer = <ENGLISH>;
             ru_layer = <RUSSIAN>;
             language = <ENGLISH>;
@@ -27,7 +27,7 @@
         ru: kp_on_rus {
             compatible = "zmk,behavior-kp-on-lang";
             #binding-cells = <1>;
-            bindings = <&kp F19>, <&kp F18>;
+            bindings = <&kp F17>, <&kp F18>;
             en_layer = <ENGLISH>;
             ru_layer = <RUSSIAN>;
             language = <RUSSIAN>;
