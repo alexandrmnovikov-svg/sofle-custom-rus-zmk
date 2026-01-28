@@ -22,6 +22,8 @@
 
 #include "definitions/behaviors.dtsi"
 
+// Коды для MacOS для уменьшения и увеличения яркости экрана - F14 F15
+
 // https://keymap-drawer.streamlit.app/
 // for auto-visualization
 / {
@@ -65,7 +67,7 @@
                 &mo LOWER  &km LCTRL  &km LALT  &km LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &km RGUI  &km RCTRL    
             >;
             sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp F14 F15
             >;
         };
 
@@ -96,7 +98,7 @@
                    &mo LOWER  &km LCTRL  &km LALT  &km LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &km RGUI  &km RCTRL    
             >;
            sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp F14 F15
             >;
           };
 
@@ -127,7 +129,7 @@
                       &mo LOWER  &km LCTRL  &km LALT  &km LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &km RGUI  &km RCTRL    
             >;
            sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp F14 F15
             >;
           };
 
@@ -157,7 +159,7 @@
                 &mo LOWER  &km LCTRL  &km LALT  &km LGUI  &kp BSPC       &ls NEXT  &mo RAISE  &kp RET   &km RGUI  &km RCTRL
             >;
            sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp F14 F15
             >;
           };
 
